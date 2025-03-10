@@ -32,9 +32,9 @@ class circular_queue:
                 break
             i = (i + 1) % self.size
         
-ob=circular_queue(4)
-ob.insertion(4)
-ob.insertion(8)
+ob=circular_queue(5)
+ob.insertion(10)
+ob.insertion(20)
 ob.deletion()
 ob.traverse()
         

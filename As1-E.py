@@ -5,11 +5,11 @@ example, 'balloon' is returned as 'bal*o*n'.
 str=input("Enter your Text: ")
 dict={}
 
-def replace_char(str):
+def rplc_char(str):
     for i in range(len(str)):
         if str[i] in dict:
             str=str[:i]+ "*" + str[i+1:]
         dict[str[i]]=i
     return str
 
-print(replace_char(str))
+print(rplc_char(str))
